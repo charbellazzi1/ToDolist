@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import _ from "lodash";
 
 //mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
-mongoose.connect("mongodb+srv://charbelazzy:justme2003@cluster0.kxj3v9z.mongodb.net/", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://charbelazzy:justme2003@cluster0.ndgorna.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true});
 const app = express();
 const itemSchema = {
   name: String
